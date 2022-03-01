@@ -1,0 +1,40 @@
+.img{
+    height: 50px;
+    display: none;
+}
+.nav-font-size{
+    font-size: 10px;
+}
+.Color-texto{
+    color: rgb(150, 108, 95);
+}
+.main-slideshow{
+    height: 200px;
+}
+.borde{
+    border: double 5px rgb(150, 108, 95);
+}
+@media screen and (min-width:580px) {
+    .img{
+        height: 40px;
+        display: flex;
+    }
+    .nav-font-size{
+        font-size: 11px;
+    }
+    .main-slideshow{
+        height: 500px;
+    }
+}
+@media screen and (min-width:1400px) {
+    .img{
+        height: 70px;
+        display: flex;
+    }
+    .nav-font-size{
+        font-size: 20px;
+    }
+    .main-slideshow{
+        height: 800px;
+    }
+}
