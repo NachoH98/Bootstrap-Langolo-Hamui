@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="/styles/style.carrito.css">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="icon" href="/Assets/favicon.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Home
+        </title>
+    </head>   
+    <body>
+        <div class="grid-container">
+
+             <!-- HEADER -->
+
+            <header>
+                <img src="/Assets/favicon.png" alt="Logo" class="header-logo">
+                <h1 class="header-titulo">Langolo</h1>
+            </header>
+
+            <!-- NAV -->
+
+            <nav>
+                <ul>
+                    <li><a href="/index.htm">Home</a></li>
+                    <li><a href="/Pages/promos.html">Promos</a></li>
+                    <li><a href="/Pages/menu.html">Menu</a></li>
+                    <li class="nav-carrito"><a href="#" style="border: none;"><img src="/Assets/Carrito2.png" alt="Cart" class="nav-carrito-carrito"></a></li>
+                </ul>
+            </nav>
+
+            <!-- MAIN -->
+
+            <main>
+                <div class="main-cont">
+                    <div>
+                        <form class="main-carrito-form">
+                            <div class="carrito-completar">
+                                <label for="fnombre" class="carrito-label">Nombre :</label>
+                                <input type="text" id="fnombre" required>
+                                <br>
+                                <label for="fdirección" class="carrito-label">Domicilio:</label>
+                                <input type="text" id="fdirección" required>
+                            </div>
+                            <div class="carrito-text">
+                                <textarea placeholder="Informacion adicional del pedido" class="carrito-textarea"></textarea>
+                            </div>
+                            <div class="carrito-rad">
+                                <label for="fmetodo" class="carrito-label">Local</label>
+                                <input type="radio" id="fmetodo" name="fmetodo">
+                                <span class="checkmark"></span>
+                                <label for="fmetodo" class="carrito-label">Delivery</label>
+                                <input type="radio" id="fmetodo" name="fmetodo">
+                                <label for="fmetodo"></label>
+                            </div>
+                            <div class="carrito-sel">
+                                <select name="fmetodop" id="fmetodop">
+                                    <option value="">Tarjeta</option>
+                                    <option value="">Efectivo</option>
+                                    <option value="">Mercadopago</option>
+                                </select>
+                            </div>
+                            <div class="carrito_items">
+                                <Label class="carrito-label">Realizar la compra</Label>
+                                <input type="submit" class="Real-Compra">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </main>
+
+            <!--ASIDE -->
+
+            <aside class="aside1">
+            
+            </aside>
+            <aside class="aside2">
+                
+            </aside>
+
+
+            <!-- SECTION -->
+
+            <section>
+                
+            </section>
+
+            <!-- FOOTER -->
+
+            <footer>
+                <div>
+                    <p>Copyrigth todos los derechos reservados</p>
+                </div>
+                <div>
+                    <img src="/Assets/instagram-logo.png" alt="Instagram" height="30px" width="30px">
+                    <img src="/Assets/twitter-logo-4.png" alt="Twitter" height="30px" width="30px">
+                    <img src="/Assets/1024px-Facebook_Logo_(2019).png" alt="Facebook" height="30px" width="30px">
+                </div>
+            </footer>
+        </div>    
+    </body>
+</html>
