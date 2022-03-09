@@ -1,142 +1,122 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <link rel="stylesheet" href="/styles/style-menu.css">
+    <link rel="stylesheet" href="./style.css">
     <head>
-        <meta charset="UTF-8">
-        <link rel="icon" href="/Assets/favicon.png">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>
-            Home
-        </title>
-    </head>   
+        <meta charset="utf-8">
+        <link rel="icon" href="./assetss/taza-1.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+        <title>Langolo</title>
+    </head>
     <body>
-        <div class="grid-container">
-
-             <!-- HEADER -->
-
-            <header>
-                <img src="/Assets/favicon.png" alt="Logo" class="header-logo">
-                <h1 class="header-titulo">Langolo</h1>
-            </header>
-
-            <!-- NAV -->
-
-            <nav>
-                <ul>
-                    <li><a href="/index.htm">Home</a></li>
-                    <li><a href="/Pages/promos.html">Promos</a></li>
-                    <li><a href="#">Menu</a></li>
-                    <li class="nav-carrito"><a href="/Pages/carrito.html" style="border: none;"><img src="/Assets/Carrito2.png" alt="Cart" class="nav-carrito-carrito"></a></li>
-                </ul>
-            </nav>
-
-            <!-- MAIN -->
-
-            <main>
-                <div class="main-cont">
-                    <div class="main-menu-cont">
-                        <img src="/Assets/Imagenes/waffles.jpg" alt="" class="main-menu-img">
+        <!-- NAV---------------------------------------------------------------- -->
+        <nav class="container-fluid bg-warning bg-opacity-25 p-1">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-sm-3 col-lg-3 offset-sm-2 offset-lg-2" class="header-img">
+                        <img src="./assetss/taza-1.png" class="img">
                     </div>
-                    <div class="main-menu-cont">
-                        <img src="/Assets/Imagenes/waffles.jpg" alt="" class="main-menu-img">
-                    </div>
-                    <div class="main-menu-cont">
-                        <img src="/Assets/Imagenes/waffles.jpg" alt="" class="main-menu-img">
-                    </div>
-                    <div class="main-menu-cont">
-                        <img src="/Assets/Imagenes/waffles.jpg" alt="" class="main-menu-img">
-                    </div>
-                    <div class="main-menu-cont">
-                        <img src="/Assets/Imagenes/waffles.jpg" alt="" class="main-menu-img">
-                    </div>
-                    <div class="main-menu-cont">
-                        <img src="/Assets/Imagenes/waffles.jpg" alt="" class="main-menu-img">
-                    </div>
-                    <div class="main-menu-cont">
-                        <img src="/Assets/Imagenes/waffles.jpg" alt="" class="main-menu-img">
-                    </div>
-                    <div class="main-menu-cont">
-                        <img src="/Assets/Imagenes/waffles.jpg" alt="" class="main-menu-img">
-                    </div>
-                    <div class="main-menu-cont">
-                        <img src="/Assets/Imagenes/waffles.jpg" alt="" class="main-menu-img">
-                    </div>
-                    <div class="main-menu-cont">
-                        <img src="/Assets/Imagenes/waffles.jpg" alt="" class="main-menu-img">
-                    </div>
-                    <div class="main-menu-cont">
-                        <img src="/Assets/Imagenes/waffles.jpg" alt="" class="main-menu-img">
-                    </div>
-                    <div class="main-menu-cont">
-                        <img src="/Assets/Imagenes/waffles.jpg" alt="" class="main-menu-img">
-                    </div>
-                    <div class="main-menu-cont">
-                        <img src="/Assets/Imagenes/waffles.jpg" alt="" class="main-menu-img">
-                    </div>
-                    <div class="main-menu-cont">
-                        <img src="/Assets/Imagenes/waffles.jpg" alt="" class="main-menu-img">
-                    </div>
-                    <div class="main-menu-cont">
-                        <img src="/Assets/Imagenes/waffles.jpg" alt="" class="main-menu-img">
-                    </div>
-                    <div class="main-menu-cont">
-                        <img src="/Assets/Imagenes/waffles.jpg" alt="" class="main-menu-img">
-                    </div>
-                    <div class="main-menu-cont">
-                        <img src="/Assets/Imagenes/waffles.jpg" alt="" class="main-menu-img">
-                    </div>
-                    <div class="main-menu-cont">
-                        <img src="/Assets/Imagenes/waffles.jpg" alt="" class="main-menu-img">
-                    </div>
-                    <div class="main-menu-cont">
-                        <img src="/Assets/Imagenes/waffles.jpg" alt="" class="main-menu-img">
-                    </div>
-                    <div class="main-menu-cont">
-                        <img src="/Assets/Imagenes/waffles.jpg" alt="" class="main-menu-img">
-                    </div>
-                    <div class="main-menu-cont">
-                        <img src="/Assets/Imagenes/waffles.jpg" alt="" class="main-menu-img">
-                    </div>
-                    <div class="main-menu-cont">
-                        <img src="/Assets/Imagenes/waffles.jpg" alt="" class="main-menu-img">
-                    </div>
-                    <div class="main-menu-cont">
-                        <img src="/Assets/Imagenes/waffles.jpg" alt="" class="main-menu-img">
-                    </div>
-                    <div class="main-menu-cont">
-                        <img src="/Assets/Imagenes/waffles.jpg" alt="" class="main-menu-img">
+                    <div class="col-sm-7 col-lg-6 text-end">
+                        <ul class="nav justify-content-center nav-font-size">
+                            <li class="nav-item">
+                              <a class="nav-link active text-black" aria-current="page" href="./index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link text-black" href="./promos.html">Promos</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link text-black" href="#">Menu</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link text-black" href="./carrito.html">Carrito</a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
-            </main>
-        
-            <!--ASIDE -->
+            </div>
+        </nav>
 
-            <aside class="aside1">
-            
-            </aside>
-            <aside class="aside2">
-                
-            </aside>
-
-
-            <!-- SECTION -->
-
-            <section>
-                
-            </section>
-
-            <!-- FOOTER -->
-
-            <footer>
-                <div>
-                    <p>Copyrigth todos los derechos reservados</p>
+        <!-- MAIN ----------------------------------------------------------------- -->
+        <main class="container-fluid bg-warning bg-opacity-10 p-5">
+            <div class="row p-5">
+                <div class="col-md-3">
+                    <img src="./assetss/imagenes/waffles.jpg" class="img-fluid img-thumbnail">
                 </div>
-                <div>
-                    <img src="/Assets/instagram-logo.png" alt="Instagram" height="30px" width="30px">
-                    <img src="/Assets/twitter-logo-4.png" alt="Twitter" height="30px" width="30px">
-                    <img src="/Assets/1024px-Facebook_Logo_(2019).png" alt="Facebook" height="30px" width="30px">
+                <div class="col-md-3">
+                    <img src="./assetss/imagenes/waffles.jpg" class="img-fluid img-thumbnail">
                 </div>
-            </footer>
-        </div>    
+                <div class="col-md-3">
+                    <img src="./assetss/imagenes/waffles.jpg" class="img-fluid img-thumbnail">
+                </div>
+                <div class="col-md-3">
+                    <img src="./assetss/imagenes/waffles.jpg" class="img-fluid img-thumbnail">
+                </div>
+            </div>
+            <div class="row p-5">
+                <div class="col-md-3">
+                    <img src="./assetss/imagenes/waffles.jpg" class="img-fluid img-thumbnail">
+                </div>
+                <div class="col-md-3">
+                    <img src="./assetss/imagenes/waffles.jpg" class="img-fluid img-thumbnail">
+                </div>
+                <div class="col-md-3">
+                    <img src="./assetss/imagenes/waffles.jpg" class="img-fluid img-thumbnail">
+                </div>
+                <div class="col-md-3">
+                    <img src="./assetss/imagenes/waffles.jpg" class="img-fluid img-thumbnail">
+                </div>
+            </div>
+            <div class="row p-5">
+                <div class="col-md-3">
+                    <img src="./assetss/imagenes/waffles.jpg" class="img-fluid img-thumbnail">
+                </div>
+                <div class="col-md-3">
+                    <img src="./assetss/imagenes/waffles.jpg" class="img-fluid img-thumbnail">
+                </div>
+                <div class="col-md-3">
+                    <img src="./assetss/imagenes/waffles.jpg" class="img-fluid img-thumbnail">
+                </div>
+                <div class="col-md-3">
+                    <img src="./assetss/imagenes/waffles.jpg" class="img-fluid img-thumbnail">
+                </div>
+            </div>
+            <div class="row p-5">
+                <div class="col-md-3">
+                    <img src="./assetss/imagenes/waffles.jpg" class="img-fluid img-thumbnail">
+                </div>
+                <div class="col-md-3">
+                    <img src="./assetss/imagenes/waffles.jpg" class="img-fluid img-thumbnail">
+                </div>
+                <div class="col-md-3">
+                    <img src="./assetss/imagenes/waffles.jpg" class="img-fluid img-thumbnail">
+                </div>
+                <div class="col-md-3">
+                    <img src="./assetss/imagenes/waffles.jpg" class="img-fluid img-thumbnail">
+                </div>
+            </div>
+        </main>
+        <!-- FOOTER --------------------------------------------------------------- -->
+        <footer class="container-fluid bg-warning bg-opacity-25 p-2">
+            <div class="container-fluid">
+                <div class="row d-flex flex-row">
+                    <div class="col-4 pt-3">
+                        <p class="nav-font-size">Copyrigth todos los derechos reservados</p>
+                    </div>
+                    <div class="col-8 d-flex justify-content-end pt-3">
+                        <img src="./assetss/instagram-logo.png" alt="Instagram" height="30px" width="30px">
+                        <img src="./assetss/twitter-logo-4.png" alt="Twitter" height="30px" width="30px">
+                        <img src="./assetss/1024px-Facebook_Logo_(2019).png" alt="Facebook" height="30px" width="30px">
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     </body>
 </html>

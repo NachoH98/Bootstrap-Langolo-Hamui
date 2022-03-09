@@ -1,0 +1,59 @@
+@import "promos";
+
+$textcolor:rgb(150, 108, 95);
+
+.img{
+    height: 50px;
+    display: none;
+}
+.nav-font-size{
+    font-size: 10px;
+}
+.Color-texto{
+    color: $textcolor;
+}
+.main-slideshow{
+    height: 200px;
+}
+.borde{
+    border: double 5px $textcolor;
+}
+nav{
+    a{
+        border-radius: 20px;
+        &:hover{
+            background-color: rgba(0,0,0,0.2);
+            transform: scale(1.2,1.2);
+        }
+    }
+}
+
+@media screen and (min-width:580px) {
+    .img{
+        height: 40px;
+        display: flex;
+    }
+    .nav-font-size{
+        font-size: 11px;
+    }
+    .main-slideshow{
+        height: 500px;
+    }
+}
+@media screen and (min-width:760px) {
+    .lado-der{
+        display: inline;
+    }
+}
+@media screen and (min-width:1400px) {
+    .img{
+        height: 70px;
+        display: flex;
+    }
+    .nav-font-size{
+        font-size: 20px;
+    }
+    .main-slideshow{
+        height: 800px;
+    }
+}
